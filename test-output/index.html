@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -107,12 +107,21 @@
                         <a href="#" panel-name="suite-Suite" title="ninzaCRM.CreateAllTests.CreateAllAndVerifyTest" class="method navigator-link" hash-for-method="createAllAndVerify">createAllAndVerify</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="ninzaCRM.CampaignsTests.CreateCampaignTest" class="method navigator-link" hash-for-method="createCampaign">createCampaign</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -135,15 +144,13 @@
                   <a name="createAllAndVerify">
                   </a> <!-- createAllAndVerify -->
                   <span class="method-name">createAllAndVerify</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.120)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2111c5515f5768efd4026eabfcef857e, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\arije\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52096/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2111c5515f5768efd4026eabfcef857e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -167,9 +174,9 @@ Session ID: 2111c5515f5768efd4026eabfcef857e
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">ninzaCRM.CampaignsTests.CreateCampaignTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -178,38 +185,10 @@ Session ID: 2111c5515f5768efd4026eabfcef857e
                   <a name="createCampaign">
                   </a> <!-- createCampaign -->
                   <span class="method-name">createCampaign</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=137.0.7151.120)
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32445dedef1102c177b8303748c6f857, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\arije\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52064}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52064/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 32445dedef1102c177b8303748c6f857
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-	at ninzaCRM.ObjectRepository.LoginPage.loginToApp(LoginPage.java:49)
-	at ninzaCRM.GenericUtilities.BaseClass.bmConfig(BaseClass.java:83)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -265,18 +244,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createAllAndVerify')
-data.setCell(0, 2, 'ninzaCRM.CreateAllTests.CreateAllAndVerifyTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'createCampaign')
+data.setCell(0, 2, 'ninzaCRM.CampaignsTests.CreateCampaignTest')
+data.setCell(0, 3, 17790);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createCampaign')
-data.setCell(1, 2, 'ninzaCRM.CampaignsTests.CreateCampaignTest')
+data.setCell(1, 1, 'createAllAndVerify')
+data.setCell(1, 2, 'ninzaCRM.CreateAllTests.CreateAllAndVerifyTest')
 data.setCell(1, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -321,58 +300,56 @@ return data;
                 <span class="method-start">16 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">bmConfig</span>
-                <span class="method-start">4104 ms</span>
+                <span class="method-start">6794 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createCampaign</span>
-                <span class="method-start">4174 ms</span>
+                <span class="method-start">7196 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">amConfig</span>
-                <span class="method-start">4178 ms</span>
+                <span class="method-start">24997 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">acConfig</span>
-                <span class="method-start">4218 ms</span>
+                <span class="method-start">32551 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ninzaCRM.CreateAllTests.CreateAllAndVerifyTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">bcConfig</span>
-                <span class="method-start">4373 ms</span>
+                <span class="method-start">33503 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">bmConfig</span>
-                <span class="method-start">7318 ms</span>
+                <span class="method-start">38959 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createAllAndVerify</span>
-                <span class="method-start">7346 ms</span>
+                <span class="method-start">39045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">amConfig</span>
-                <span class="method-start">7359 ms</span>
+                <span class="method-start">39052 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">acConfig</span>
-                <span class="method-start">7382 ms</span>
+                <span class="method-start">39067 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ninzaCRM.CampaignsTests.CreateCampaignTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">asConfig</span>
-                <span class="method-start">7591 ms</span>
+                <span class="method-start">39269 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
