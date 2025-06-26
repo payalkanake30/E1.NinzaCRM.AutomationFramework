@@ -19,7 +19,7 @@ public class CreateLeadWithCampaignTest {
 	public void tc_01_createLeadWithCampaign() throws InterruptedException {
 		// Launch the browser
 		WebDriver driver = new EdgeDriver();
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("http://49.249.28.218:8098/");
 
