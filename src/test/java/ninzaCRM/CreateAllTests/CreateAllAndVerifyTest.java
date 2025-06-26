@@ -25,7 +25,7 @@ import ninzaCRM.ObjectRepository.PurchaseOrderPage;
 import ninzaCRM.ObjectRepository.QuotesPage;
 import ninzaCRM.ObjectRepository.SalesOrderPage;
 
-public class CreateAllAndVerify extends BaseClass{
+public class CreateAllAndVerifyTest extends BaseClass{
 	
 	@Test
 	public void createAllAndVerify() throws EncryptedDocumentException, IOException, InterruptedException
