@@ -14,6 +14,17 @@
           <include name="bcConfig"/>
         </methods>
       </class> <!-- ninzaCRM.CreateAllTests.CreateAllAndVerifyTest -->
+      <class name="ninzaCRM.CampaignsTests.CreateCampaignTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="acConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="createCampaign"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- ninzaCRM.CampaignsTests.CreateCampaignTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
