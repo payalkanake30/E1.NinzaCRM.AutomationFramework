@@ -35,7 +35,7 @@ public class BaseClass {
 	public WebDriver driver;
 	
 	//For listeners
-	public static WebDriver sdriver;
+	public static WebDriver sdriver; 
 	
 	@BeforeSuite(alwaysRun = true)//(groups = {"SmokeSuite","RegressionSuite"})
 	public void bsConfig()
