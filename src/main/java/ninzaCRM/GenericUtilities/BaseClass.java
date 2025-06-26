@@ -50,7 +50,7 @@ public class BaseClass {
 	{
 		String URL = pUtil.readDataFromPropertyFile("url");
 		
-		driver = new FirefoxDriver();
+		driver = new FirefoxDriver(); 
 		
 //		if(BROWSER.equals("edge"))
 //		{
