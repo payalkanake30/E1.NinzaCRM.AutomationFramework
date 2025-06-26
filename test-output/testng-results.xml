@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T00:26:56 IST" name="Default suite" finished-at="2025-06-26T00:27:25 IST" duration-ms="28901">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T00:26:56 IST" name="Default test" finished-at="2025-06-26T00:27:25 IST" duration-ms="28901">
+      <class name="ninzaCRM.Leads.Tests.CreateLeadWithCampaignTest">
+        <test-method signature="tc_01_createLeadWithCampaign()[pri:0, instance:ninzaCRM.Leads.Tests.CreateLeadWithCampaignTest@57cf54e1]" started-at="2025-06-26T00:26:56 IST" name="tc_01_createLeadWithCampaign" finished-at="2025-06-26T00:27:25 IST" duration-ms="28864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_createLeadWithCampaign -->
+      </class> <!-- ninzaCRM.Leads.Tests.CreateLeadWithCampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -15,5 +15,11 @@
     <class name=""></class>
    </classes>
   </test> <!-- Test -->
+   <test thread-count="2" parallel="tests" name="Test-Runner-Chrome">
+  <parameter name="Browser" value="chrome"></parameter>
+   <classes>
+    <class name=""></class>
+   </classes>
+  </test>
   
 </suite> <!-- Suite -->

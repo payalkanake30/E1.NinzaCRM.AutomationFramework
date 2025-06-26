@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -63,6 +62,19 @@ public class SeleniumUtility {
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
+	
+	/**
+	 * This method will wait for 100s for element to be invisible
+	 * @param driver
+	 * @param element
+	 * @author Payal
+	 */
+	public void waitForElementToBeInvisible(WebDriver driver, WebElement element)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(100));
+		wait.until(ExpectedConditions.invisibilityOf(element));
+	}
+	
 	/**
 	 * This method will handle drop down by index
 	 * @param element
@@ -100,8 +112,9 @@ public class SeleniumUtility {
 	 * This method will perform mouse hovering action on a web element
 	 * @param driver
 	 * @param element
+	 * @author Payal
 	 */
-	public void mouseOverAction(WebDriver driver, WebElement element)
+	public void mouseHoverAction(WebDriver driver, WebElement element)
 	{
 		Actions act = new Actions(driver);
 		act.moveToElement(element).perform();

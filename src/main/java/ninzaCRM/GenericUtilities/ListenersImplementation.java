@@ -107,17 +107,17 @@ public class ListenersImplementation implements ITestListener{
 		//Basic Configuration of Extent Reports
 		ExtentSparkReporter htmlRep = new ExtentSparkReporter(".\\ExtentReports\\Report-"+new JavaUtility().getSystemDate()+".html");
 		htmlRep.config().setDocumentTitle("Execution Report");
-		htmlRep.config().setTheme(Theme.DARK);
-		htmlRep.config().setReportName("VTiger Execution Report");
+		htmlRep.config().setTheme(Theme.STANDARD);
+		htmlRep.config().setReportName("Ninza CRM Execution Report");
 		
 		
 		//Set system info inside extent reports
 		report = new ExtentReports();
 		report.attachReporter(htmlRep);
 		report.setSystemInfo("Base Platform", "Windows");
-		report.setSystemInfo("Base Browser", "Edge");
-		report.setSystemInfo("Base Environment", "Testing");
-		report.setSystemInfo("Reporter name", "Chaitra");
+		report.setSystemInfo("Base Browser", "Chrome");
+		report.setSystemInfo("Base Environment", "SIT-Testing");
+		report.setSystemInfo("Reporter name", "Payal K");
 		
 			
 	}
