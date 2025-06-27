@@ -63,6 +63,17 @@ public class SeleniumUtility {
 	}
 	
 	/**
+	 * This method will wait for 10s for element to be visible
+	 * @param driver
+	 * @param element
+	 */
+	public void waitForElementToBeClickable(WebDriver driver, WebElement element)
+	{
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	/**
 	 * This method will handle drop down by index
 	 * @param element
 	 * @param index

@@ -114,8 +114,9 @@ public class CampaignsPage extends SeleniumUtility{
 	 * This method will click on create campaign button
 	 */
 	
-	public void clickOnCreateCampaignBtn()
+	public void clickOnCreateCampaignBtn(WebDriver driver)
 	{
+		waitForElementToBeClickable(driver, createCampaignBtn);
 		createCampaignBtn.click();
 	}
 	
