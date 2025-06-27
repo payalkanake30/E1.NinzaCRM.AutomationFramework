@@ -3,6 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="ninzaCRM.CampaignsTests.CreateCampaignTest">
+        <methods>
+          <include name="amConfig"/>
+          <include name="acConfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="createCampaign"/>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- ninzaCRM.CampaignsTests.CreateCampaignTest -->
       <class name="ninzaCRM.ContactsTests.CreateContactTest">
         <methods>
           <include name="amConfig"/>
