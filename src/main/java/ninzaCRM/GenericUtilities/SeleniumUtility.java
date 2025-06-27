@@ -63,7 +63,7 @@ public class SeleniumUtility {
 	}
 	
 	/**
-	 * This method will wait for 10s for element to be visible
+	 * This method will wait for 10s for element to be clickable
 	 * @param driver
 	 * @param element
 	 */
