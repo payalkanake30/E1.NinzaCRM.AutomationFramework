@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 26 23:22:16 IST 2025</td>
+<td>Started on:</td><td>Fri Jun 27 19:25:57 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>39 seconds (39183 ms)</td>
+<tr><td>Total time:</td><td>51 seconds (51537 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,14 +75,100 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ninzaCRM.CreateAllTests.CreateAllAndVerifyTest.amConfig()'><b>amConfig</b><br>Test class: ninzaCRM.CreateAllTests.CreateAllAndVerifyTest</td>
+<td title='ninzaCRM.CampaignsTests.CreateCampaignTest.acConfig()'><b>acConfig</b><br>Test class: ninzaCRM.CampaignsTests.CreateCampaignTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7daf5bb8-683e-4468-9800-4a1f6b2d0f39, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1188, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7daf5bb8-683e-4468-9800-4a1f6b2d0f39
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1894338251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1894338251'><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7daf5bb8-683e-4468-9800-4a1f6b2d0f39, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1188, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7daf5bb8-683e-4468-9800-4a1f6b2d0f39
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>1</td>
+<td>ninzaCRM.CampaignsTests.CreateCampaignTest@223d2c72</td></tr>
+<tr>
+<td title='ninzaCRM.ContactsTests.CreateContactTest.acConfig()'><b>acConfig</b><br>Test class: ninzaCRM.ContactsTests.CreateContactTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35d75759-878f-4aec-b801-51af367cb927, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2070295086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2070295086'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35d75759-878f-4aec-b801-51af367cb927, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>0</td>
+<td>ninzaCRM.ContactsTests.CreateContactTest@7f3b84b8</td></tr>
+<tr>
+<td title='ninzaCRM.ContactsTests.CreateContactTest.amConfig()'><b>amConfig</b><br>Test class: ninzaCRM.ContactsTests.CreateContactTest</td>
 <td><div><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, actions {actions=[org.openqa.selenium.interactions.Sequence@6af5bbd0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, actions {actions=[org.openqa.selenium.interactions.Sequence@4ba6ec50]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
 	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
@@ -128,13 +214,13 @@ Driver info: driver.version: RemoteWebDriver
 		... 44 more
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
 	... 65 more
-Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -154,14 +240,14 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
 	... 67 more
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace846014380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace846014380'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace107075722", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace107075722'><pre>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, actions {actions=[org.openqa.selenium.interactions.Sequence@6af5bbd0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, actions {actions=[org.openqa.selenium.interactions.Sequence@4ba6ec50]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
 	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
 	at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
@@ -240,13 +326,13 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
 	... 65 more
-Caused by: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Caused by: org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=xpath, value=//div[@class=&apos;user-icon&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -272,59 +358,16 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	... 67 more
 </pre></div></td>
 <td>0</td>
-<td>ninzaCRM.CreateAllTests.CreateAllAndVerifyTest@5c33f1a9</td></tr>
+<td>ninzaCRM.ContactsTests.CreateContactTest@7f3b84b8</td></tr>
 <tr>
-<td title='ninzaCRM.CreateAllTests.CreateAllAndVerifyTest.acConfig()'><b>acConfig</b><br>Test class: ninzaCRM.CreateAllTests.CreateAllAndVerifyTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+<td title='ninzaCRM.ContactsTests.CreateContactTest.bmConfig()'><b>bmConfig</b><br>Test class: ninzaCRM.ContactsTests.CreateContactTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1269230672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1269230672'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:128)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-</pre></div></td>
-<td>0</td>
-<td>ninzaCRM.CreateAllTests.CreateAllAndVerifyTest@5c33f1a9</td></tr>
-<tr>
-<td title='ninzaCRM.CreateAllTests.CreateAllAndVerifyTest.bmConfig()'><b>bmConfig</b><br>Test class: ninzaCRM.CreateAllTests.CreateAllAndVerifyTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
-Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -342,14 +385,14 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at ninzaCRM.ObjectRepository.LoginPage.loginToApp(LoginPage.java:49)
 	at ninzaCRM.GenericUtilities.BaseClass.bmConfig(BaseClass.java:83)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2134357721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2134357721'><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670996243", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670996243'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -401,7 +444,7 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>ninzaCRM.CreateAllTests.CreateAllAndVerifyTest@5c33f1a9</td></tr>
+<td>ninzaCRM.ContactsTests.CreateContactTest@7f3b84b8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -413,8 +456,8 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 <tr>
 <td title='ninzaCRM.CampaignsTests.CreateCampaignTest.createCampaign()'><b>createCampaign</b><br>Test class: ninzaCRM.CampaignsTests.CreateCampaignTest</td>
 <td></td>
-<td>17</td>
-<td>ninzaCRM.CampaignsTests.CreateCampaignTest@3febb011</td></tr>
+<td>23</td>
+<td>ninzaCRM.CampaignsTests.CreateCampaignTest@223d2c72</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -424,14 +467,14 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ninzaCRM.CreateAllTests.CreateAllAndVerifyTest.createAllAndVerify()'><b>createAllAndVerify</b><br>Test class: ninzaCRM.CreateAllTests.CreateAllAndVerifyTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+<td title='ninzaCRM.ContactsTests.CreateContactTest.createContact()'><b>createContact</b><br>Test class: ninzaCRM.ContactsTests.CreateContactTest</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -449,14 +492,14 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at ninzaCRM.ObjectRepository.LoginPage.loginToApp(LoginPage.java:49)
 	at ninzaCRM.GenericUtilities.BaseClass.bmConfig(BaseClass.java:83)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041742635", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2041742635'><pre>org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace130211746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace130211746'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [af5994b0-57e3-422c-ac1c-6bb64b388e03, findElement {using=id, value=username}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23316, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
+Command: [35d75759-878f-4aec-b801-51af367cb927, findElement {using=id, value=username}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.1, moz:accessibilityChecks: false, moz:buildID: 20250625213854, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5516, moz:profile: C:\Users\arije\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 35d75759-878f-4aec-b801-51af367cb927
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -508,7 +551,7 @@ Session ID: af5994b0-57e3-422c-ac1c-6bb64b388e03
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>ninzaCRM.CreateAllTests.CreateAllAndVerifyTest@5c33f1a9</td></tr>
+<td>ninzaCRM.ContactsTests.CreateContactTest@7f3b84b8</td></tr>
 </table><p>
 </body>
 </html>

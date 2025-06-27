@@ -3,17 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="ninzaCRM.CreateAllTests.CreateAllAndVerifyTest">
+      <class name="ninzaCRM.ContactsTests.CreateContactTest">
         <methods>
           <include name="amConfig"/>
           <include name="acConfig"/>
-          <include name="createAllAndVerify"/>
+          <include name="createContact"/>
           <include name="asConfig"/>
           <include name="bsConfig"/>
           <include name="bmConfig"/>
           <include name="bcConfig"/>
         </methods>
-      </class> <!-- ninzaCRM.CreateAllTests.CreateAllAndVerifyTest -->
+      </class> <!-- ninzaCRM.ContactsTests.CreateContactTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
