@@ -115,7 +115,7 @@ public class CampaignsPage extends SeleniumUtility{
 	 * @throws InterruptedException 
 	 */
 	
-	public void clickOnCreateCampaignBtn() throws InterruptedException
+	public void clickOnCreateCampaignBtn()
 	{
 		createCampaignBtn.click();
 	}
