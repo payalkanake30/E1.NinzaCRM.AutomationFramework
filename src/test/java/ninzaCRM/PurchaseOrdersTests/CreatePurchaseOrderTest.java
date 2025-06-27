@@ -49,7 +49,7 @@ public class CreatePurchaseOrderTest extends BaseClass{
 		
 		//Click on create campaign
 		CampaignsPage cp = new CampaignsPage(driver);
-		cp.clickOnCreateCampaignBtn(driver);
+		cp.clickOnCreateCampaignBtn();
 		
 		//Create campaign with mandatory fields
 		CreateCampaignPage ccp = new CreateCampaignPage(driver);

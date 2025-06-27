@@ -26,7 +26,8 @@ public class CreateContactTest extends BaseClass{
 		
 		//Click on create campaign
 		CampaignsPage cp = new CampaignsPage(driver);
-		cp.clickOnCreateCampaignBtn(driver);
+		Thread.sleep(3000);
+		cp.clickOnCreateCampaignBtn();
 		
 		//Create campaign with mandatory fields
 		CreateCampaignPage ccp = new CreateCampaignPage(driver);
