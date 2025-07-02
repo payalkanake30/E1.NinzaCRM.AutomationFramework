@@ -106,5 +106,6 @@ public class CreateLeadWithCampaignTest {
 		driver.findElement(By.xpath("//div[@class='dropdown-item logout']")).click();
 		System.out.println("Logout Successfully");
 		driver.quit();
+		System.out.println("End");
 	}
 }
